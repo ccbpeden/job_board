@@ -10,5 +10,20 @@
             $this->description = $description;
             $this->contact_info = $contact_info;
         }
+
+        function getTitle()
+        {
+            return $this->title;
+        }
+
+        function getDescription()
+        {
+            return $this->description;
+        }
+
+        function getContact()
+        {
+            return $this->contact_info;
+        }
     }
 ?>
